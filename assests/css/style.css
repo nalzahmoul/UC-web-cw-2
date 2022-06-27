@@ -1,10 +1,12 @@
 .body {
     font-family: monospace;
-    border: #e31c79;
+    border: 5px solid #e31c79;
     border-color: #e31c79;
     border-style: solid;
     border-width: 10%;
+    padding-bottom: 5%;
 }
+
 
 
 .header {
@@ -44,6 +46,13 @@ h1 {
     height: 50px;
     font-size: large;
 }
+ 
+.btn2 {
+    width: 200px; 
+    height: 50px;
+    font-size: large;
+    margin-top: 12px;
+}
 
 .card {
     width: 500px;
@@ -51,6 +60,12 @@ h1 {
     text-align: center;
     margin-left: auto; 
     margin-right: auto;
+    /* horizontal line */
+    border-bottom: 2px dashed white; 
+    border-top: 2px dashed white; 
+    /* vertical line */
+    border-left: 4px dashed white;
+    border-right: 4px dashed white;
     display: block;
 }
 
@@ -58,3 +73,15 @@ h1 {
     color: rgb(243, 243, 243);
     text-align: center;
 }
+
+.buy-btn {
+    width: 120px; 
+    font-size:medium;
+    margin-bottom: 10px;
+    margin-top: 0;
+
+}
+
+/* In CSS, a margin is the space AROUND an element's border, 
+while padding is the space BETWEEN an element's border and the element's content.  */
+
